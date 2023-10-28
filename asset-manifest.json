@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ShoppingTest/static/css/main.7e8b2207.css",
+    "main.js": "/ShoppingTest/static/js/main.1f323c97.js",
+    "static/media/Roboto-Medium.ttf": "/ShoppingTest/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "index.html": "/ShoppingTest/index.html",
+    "main.7e8b2207.css.map": "/ShoppingTest/static/css/main.7e8b2207.css.map",
+    "main.1f323c97.js.map": "/ShoppingTest/static/js/main.1f323c97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e8b2207.css",
+    "static/js/main.1f323c97.js"
+  ]
+}
