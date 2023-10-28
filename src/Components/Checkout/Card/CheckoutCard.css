@@ -1,0 +1,32 @@
+.Checkout-Card {
+    padding-bottom: 5px;
+    margin-top: 5px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.Checkout-Card-Title > h4{
+    color: var(--text-color);
+}
+.Count-Part {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+.Left-Side{
+    display: flex;
+    align-items: center;
+}
+.Right-Side {
+    display: flex;
+    align-items: center;
+}
+.icon{
+    color: var(--text-color);
+}

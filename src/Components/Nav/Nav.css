@@ -1,0 +1,104 @@
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: var(--nav-bg-color);
+    color: var(--nav-text-color);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-main {
+    display: flex;
+    padding: 0px 10px;
+}
+
+.left>div>h2 {
+    margin-right: 30px;
+}
+
+.sm-nav-main {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+}
+.sm-nav-main>ul>li{
+    overflow: hidden;
+    padding: 0 10px;
+}
+.sm-nav-main>ul>li>a,
+.sm-nav-main>ul>li>div>button {
+    text-align: start;
+    width: 100%;
+    padding: 20px 0;
+}
+.sm-nav-main>ul{
+    max-height: fit-content;
+}
+
+.collapse {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: var(--anchor-color);
+    transition: 0.2s;
+}
+
+.collapse:hover {
+    color: var(--anchor-color-hover)
+}
+
+.left {
+    float: left;
+    display: flex;
+    align-items: start;
+}
+
+
+.left>div,
+.left button {
+    line-height: 50px;
+}
+
+.left>.navbarul>h2>a {
+    display: block;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.right {
+    margin-right: 20px;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.right>a {
+    padding: 0 8px;
+}
+
+.collapse{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: block;
+    }
+    .navbarul{
+        display: none;
+    }
+    .nav-collapse {
+        max-height: max-content;
+    }
+    .collapse{
+        display: block;
+    }
+    .sm-nav-main>ul>li>div>div {
+        position: relative !important;
+    }
+
+    .sm-nav-main>ul>li>div>div>ul>li>a {
+        padding: 20px 30px;
+    }
+}

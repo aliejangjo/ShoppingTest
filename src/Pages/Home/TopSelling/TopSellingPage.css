@@ -1,0 +1,26 @@
+.Top-selling-main {
+    overflow: visible;
+    text-align: center;
+    background-color: var(--div);
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 10px;
+}
+
+.Top-selling {
+    height: fit-content;
+}
+
+.Top-selling-Cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:567px){
+    .Top-selling-main{
+        justify-content: center;
+    }
+}

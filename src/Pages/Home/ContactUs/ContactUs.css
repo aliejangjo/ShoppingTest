@@ -1,0 +1,8 @@
+.ContactUs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    height: 77.5vh;
+}

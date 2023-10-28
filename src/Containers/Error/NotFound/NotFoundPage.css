@@ -1,0 +1,12 @@
+.main-404{
+    height: 76vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    text-align: center;
+}
+.main-container > p {
+    margin-top: 20px;
+}

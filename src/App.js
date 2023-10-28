@@ -1,24 +1,19 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
+import { MainRouter } from './Router/Router';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import 'react-toastify/dist/ReactToastify.css';
 
-function App() {
+const App = () => {
+  const getTheme = JSON.parse(localStorage.getItem('theme'))
+  if(getTheme){
+    document.querySelector('body').setAttribute('data-theme' , getTheme)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <MainRouter />
+    </BrowserRouter>
   );
 }
 

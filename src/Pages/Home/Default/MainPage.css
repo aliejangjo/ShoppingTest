@@ -1,0 +1,29 @@
+.best-price-title , .top-selling-title , .top-dicsount-title{
+    width: fit-content;
+    padding: 0 40px 5px 0;
+    border-bottom: 1px solid var(--border-color);
+}
+.best-price-main , .top-selling-main , .top-dicsount-main{
+    margin-top: 20px;
+    width: inherit;
+    background-color: var(--div);
+    border-radius: 8px;
+    padding: 10px 10px;
+    height: 370px;
+    display: flex;
+    overflow-x: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .top-dicsount{
+    margin-top: 50px;
+}
+.see-more{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

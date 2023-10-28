@@ -1,0 +1,25 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 0 0 0px;
+    height: inherit;
+}
+ul > li{
+    min-width: fit-content;
+}
+ul > li > a{
+    height: 100%;
+    width: 100%;
+    display: block;
+    font-size: medium;
+    padding: 0 15px;
+}
+
+@media (max-width: 768px) {
+    ul > li > a{
+        padding: 0px 0 0 0px;
+    }
+    ul > li{
+        background-color: #333;
+    }
+}

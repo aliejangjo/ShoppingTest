@@ -1,0 +1,35 @@
+.Product{
+    background-color: var(--div);
+    border-radius: 10px;
+    display: flex;
+    min-width: 100%;
+    width: inherit;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.Product-main{
+    padding: 10px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.Product-text{
+    margin-top: 30px;
+}
+
+@media (max-width:768px){
+    .Product{
+        align-items: center;
+        flex-direction: column;
+    }
+    .Product-main{
+        text-align: center;
+        margin-left: 0;
+    }
+    .buy-section{
+        margin-top: 40px;
+    }
+}

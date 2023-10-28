@@ -1,0 +1,6 @@
+.footer{
+    height: fit-content;
+    padding: 10px 0px;
+    background-color: var(--footer-bg);
+    text-align: center;
+}

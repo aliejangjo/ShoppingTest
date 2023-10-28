@@ -1,0 +1,28 @@
+button{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.a{
+    color: var(--anchor-color);
+    transition: 0.2s;
+}
+.a:hover{
+    color: var(--anchor-color-hover);
+}
+.pointer{
+    cursor: pointer;
+}
+
+.primary-btn{
+    border-radius: 5px;
+    padding: 10px 0;
+    background-color: var(--button-primary-bg);
+    color: var(--button-primary-color);
+}
+.secondary-btn{
+    border-radius: 5px;
+    padding: 10px 0;
+    background-color: var(--button-secondary-bg);
+    color: var(--button-secondary-color);
+}

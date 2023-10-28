@@ -1,0 +1,30 @@
+
+.arrow-btn{
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 100% !important;
+    cursor:pointer;
+}
+.number-btn{
+    background-color: var(--pagination-bg-color) !important;
+    border: none !important;
+    border-radius: 100% !important;
+    color: var(--pagination-text-color) !important;
+    margin: 0px 3px;
+    transition: 0.5s;
+    padding: 6px 12px;
+    cursor:pointer;
+}
+.number-btn:hover{
+    color: #fff !important;
+    background-color: var(--pagination-hover-bg-color) !important;
+}
+.active{
+    color: #fff !important;
+    background-color: var(--pagination-active-bg-color) !important;
+    transition: 0.5s !important;
+}
+
+.icon{
+    color: #000;
+}

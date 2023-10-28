@@ -1,0 +1,11 @@
+.main{
+    height: 76vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}

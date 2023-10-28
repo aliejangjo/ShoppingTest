@@ -1,0 +1,22 @@
+.container{
+    padding: 10px !important;
+}
+.before-nav-parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.before-nav-parent > div {
+    width: 50%;
+}
+.before-nav-icons{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.before-nav-icon{
+    padding: 0px 7px;
+}
+@media (max-width: 768px) {
+
+}

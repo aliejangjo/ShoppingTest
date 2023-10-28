@@ -1,0 +1,19 @@
+.Checkout-Main{
+    height: 77.6vh;
+    overflow: auto;
+    padding: 5px 20px;
+}
+.Checkout-Header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 4px;
+}
+.Checkout-Header > button{
+    padding: 5px 20px;
+}
+.Checkout-body{
+    padding: 10px 0;
+}
